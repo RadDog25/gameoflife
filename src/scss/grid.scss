@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    .cell-container {
+        width: 100%;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        .cell {
+            padding-top: 100%;
+            background-color: $light-gray;
+            &.active {
+                background-color: $red;
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &:last-child .cell-container {
+        margin-bottom: 0;
+    }
+}
