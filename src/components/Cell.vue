@@ -9,7 +9,11 @@ export default {
   ],
   methods: {
     handleClick () {
-      this.$emit('cellWasClicked', this.row, this.column)
+      window.bus.$emit('cellWasClicked', {
+        row: this.row,
+        column: this.column,
+        cellIsAlive: this.cellIsAlive
+      })
     }
   }
 }
