@@ -2,26 +2,18 @@
 
 > Free code camp project based on Conway's game of life
 
-## Build Setup
+Project Link: http://gameoflife.chrisgeelhoed.surge.sh/
 
-``` bash
-# install dependencies
+Project User Stories: https://www.freecodecamp.org/challenges/build-the-game-of-life
+
+Conway's Game of Life Information: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+This project was scaffolded with vue-loader / vue-cli. Styling was done with SCSS without a CSS library.
+
+To run the project:
+
+git clone this repo
 npm install
-
-# serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+More info can be found at https://vue-loader.vuejs.org/en/
