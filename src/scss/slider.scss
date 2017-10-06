@@ -27,4 +27,13 @@
             opacity: 0.8;
         }
     }
+
+    @media screen and (max-width: 600px) {
+        .label-container .label {
+            font-size: 1em;
+        }
+        .sliderbar-outer .sliderbar-inner {
+            height: 16px;
+        }
+    }
 }
