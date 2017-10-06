@@ -31,7 +31,7 @@ export default {
           <li>This game was built with Javascript and CSS. You can see the code at <b>Github</b></li>
         </ul>
 
-        <a href="#" class="button">Github</a>
+        <a href="https://github.com/RadDog25/gameoflife" target="_blank" class="button">Github</a>
         <div @click="handleClick"
         class="button">Ok</div>
 
